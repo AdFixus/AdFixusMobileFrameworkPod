@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://adfixus.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wayneschwebel' => 'wayne.schwebel@adfixus.com' }
-  s.source           = { :git => 'https://github.com/AdFixus/AdFixusMobileFramework' } #, :tag => s.version.to_s }
+  s.source           = { :http => 'https://github.com/AdFixus/AdFixusMobileFramework/blob/main/AdFixusMobileFramework.xcframework.zip' } #, :tag => s.version.to_s }
  # s.source           = { :git => 'https://github.com/adfixus/AdFixusMobileFramework.git' } #, :tag => s.version.to_s }
   s.static_framework = true
   s.vendored_frameworks = "AdFixusMobileFramework.xcframework"
