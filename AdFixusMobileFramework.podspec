@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://adfixus.com'
+  s.libraries = [ "z" ],
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wayneschwebel' => 'wayne.schwebel@adfixus.com' }
   s.source           = { :http => 'https://github.com/AdFixus/AdFixusMobileFramework/raw/main/AdFixusMobileFramework-1.0.0.tar.gz' } #, :tag => s.version.to_s }
