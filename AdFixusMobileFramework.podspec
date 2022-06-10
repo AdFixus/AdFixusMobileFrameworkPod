@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Frameworks/AdFixusMobileFramework-current/AdFixusMobileFramework.xcframework/**/*'
+  #s.source_files = 'Frameworks/AdFixusMobileFramework-current/AdFixusMobileFramework.xcframework/**/*'
   
   # s.resource_bundles = {
   #   'AdFixusMobileFramework' => ['AdFixusMobileFramework/Assets/*.png']
