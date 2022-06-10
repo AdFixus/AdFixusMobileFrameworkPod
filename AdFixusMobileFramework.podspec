@@ -20,12 +20,12 @@ Pod::Spec.new do |s|
   s.author           = { 'wayneschwebel' => 'wayne.schwebel@adfixus.com' }
   s.source           = { :http => 'https://github.com/AdFixus/AdFixusMobileFramework/raw/main/AdFixusMobileFramework-1.0.0.tar.gz' } #, :tag => s.version.to_s }
  # s.source           = { :git => 'https://github.com/adfixus/AdFixusMobileFramework.git' } #, :tag => s.version.to_s }
-  #s.static_framework = true
+  s.static_framework = true
   s.vendored_frameworks = ["Frameworks/AdFixusMobileFramework-current/AdFixusMobileFramework.xcframework"]
   s.platform = :ios
   s.ios.deployment_target = '9.0'
 
-  #s.source_files = 'AdFixusMobileFramework.xcframework/**/*'
+  s.source_files = 'Frameworks/AdFixusMobileFramework-current/AdFixusMobileFramework.xcframework/**/*'
   
   # s.resource_bundles = {
   #   'AdFixusMobileFramework' => ['AdFixusMobileFramework/Assets/*.png']
