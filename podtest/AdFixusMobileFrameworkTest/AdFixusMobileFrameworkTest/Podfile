@@ -1,0 +1,9 @@
+platform :ios, '13.0'
+use_frameworks!
+inhibit_all_warnings!
+
+target 'AdFixusMobileFrameworkTest' do
+  use_frameworks!
+  pod 'Google-Mobile-Ads-SDK'
+  pod 'AdFixusMobileFramework', :podspec => "https://raw.githubusercontent.com/AdFixus/AdFixusMobileFramework/main/AdFixusMobileFramework.podspec"
+end
