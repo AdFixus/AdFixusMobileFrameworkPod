@@ -1,7 +1,7 @@
 PODS:
   - AdFixusMobileFramework (1.0.0):
     - Google-Mobile-Ads-SDK
-  - Google-Mobile-Ads-SDK (9.5.0):
+  - Google-Mobile-Ads-SDK (9.6.0):
     - GoogleAppMeasurement (< 10.0, >= 7.0)
     - GoogleUserMessagingPlatform (>= 1.1)
   - GoogleAppMeasurement (9.1.0):
@@ -73,7 +73,7 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   AdFixusMobileFramework: f25c183c06db2f6f28ecd769c5f23b6f53970fa6
-  Google-Mobile-Ads-SDK: caf686ba55108412e02a3eedb136e12e488dbfaa
+  Google-Mobile-Ads-SDK: bdf13d37aa77e368510687b5305d4972b4f9e9c7
   GoogleAppMeasurement: 8ecc717f2abe3f9ee95a5d38db08827852894acc
   GoogleUserMessagingPlatform: ab890ce5f6620f293a21b6bdd82e416a2c73aeca
   GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
