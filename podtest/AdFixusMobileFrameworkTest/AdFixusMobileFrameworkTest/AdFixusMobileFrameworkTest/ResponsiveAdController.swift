@@ -41,6 +41,8 @@ class ResponsiveAdController: UIViewController, GADBannerViewDelegate {
         
         var customTargeting = Dictionary<String, String>()
         customTargeting["kw"] = "mobilefirst"
+        //customTargeting["kw"] = "mobilefirst-card"
+        //customTargeting["kw"] = "mobilefirst-carousel"
         
         // MANAGEMENT OF EVENTS
         let operationResponse = manager.loadResponsiveAd(self, adContainerUIView: adContainerView, initialSize: size, adSizes: adSizes, adUnitID: adUnitID, customTargeting: &customTargeting, publisherProvidedID: nil ,delegate: self)
