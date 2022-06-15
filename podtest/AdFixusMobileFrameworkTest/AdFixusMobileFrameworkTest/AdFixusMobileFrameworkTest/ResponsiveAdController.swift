@@ -45,7 +45,7 @@ class ResponsiveAdController: UIViewController, GADBannerViewDelegate {
         //customTargeting["kw"] = "mobilefirst-carousel"
         
         // MANAGEMENT OF EVENTS
-        let operationResponse = manager.loadResponsiveAd(self, adContainerUIView: adContainerView, initialSize: size, adSizes: adSizes, adUnitID: adUnitID, customTargeting: &customTargeting, publisherProvidedID: nil ,delegate: self)
+        let operationResponse = manager.loadResponsiveAd(self, adContainerUIView: adContainerView, initialSize: size, adSizes: adSizes, adUnitID: adUnitID, customTargeting: &customTargeting, publisherProvidedID: nil ,delegate: nil)
         
         // AUTO MANAGED EVENTS
         //let operationResponse = manager.loadResponsiveAd(self, adContainerUIView: adContainerView, initialSize: size, adSizes: adSizes, adUnitID: adUnitID, customTargeting: &customTargeting, publisherProvidedID: nil, delegate: nil)
