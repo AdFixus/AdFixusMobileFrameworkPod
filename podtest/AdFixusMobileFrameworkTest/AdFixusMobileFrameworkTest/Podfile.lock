@@ -1,29 +1,28 @@
 PODS:
-  - AdFixusMobileFramework (1.0.0):
-    - Google-Mobile-Ads-SDK
-  - Google-Mobile-Ads-SDK (9.6.0):
-    - GoogleAppMeasurement (< 10.0, >= 7.0)
+  - AdFixusMobileFramework (1.0.0)
+  - Google-Mobile-Ads-SDK (9.1.0):
+    - GoogleAppMeasurement (< 9.0, >= 7.0)
     - GoogleUserMessagingPlatform (>= 1.1)
-  - GoogleAppMeasurement (9.2.0):
-    - GoogleAppMeasurement/AdIdSupport (= 9.2.0)
+  - GoogleAppMeasurement (8.15.0):
+    - GoogleAppMeasurement/AdIdSupport (= 8.15.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
     - GoogleUtilities/MethodSwizzler (~> 7.7)
     - GoogleUtilities/Network (~> 7.7)
     - "GoogleUtilities/NSData+zlib (~> 7.7)"
-    - nanopb (< 2.30910.0, >= 2.30908.0)
-  - GoogleAppMeasurement/AdIdSupport (9.2.0):
-    - GoogleAppMeasurement/WithoutAdIdSupport (= 9.2.0)
+    - nanopb (~> 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (8.15.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 8.15.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
     - GoogleUtilities/MethodSwizzler (~> 7.7)
     - GoogleUtilities/Network (~> 7.7)
     - "GoogleUtilities/NSData+zlib (~> 7.7)"
-    - nanopb (< 2.30910.0, >= 2.30908.0)
-  - GoogleAppMeasurement/WithoutAdIdSupport (9.2.0):
+    - nanopb (~> 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (8.15.0):
     - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
     - GoogleUtilities/MethodSwizzler (~> 7.7)
     - GoogleUtilities/Network (~> 7.7)
     - "GoogleUtilities/NSData+zlib (~> 7.7)"
-    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - nanopb (~> 2.30908.0)
   - GoogleUserMessagingPlatform (2.0.0)
   - GoogleUtilities/AppDelegateSwizzler (7.7.0):
     - GoogleUtilities/Environment
@@ -42,16 +41,16 @@ PODS:
   - "GoogleUtilities/NSData+zlib (7.7.0)"
   - GoogleUtilities/Reachability (7.7.0):
     - GoogleUtilities/Logger
-  - nanopb (2.30909.0):
-    - nanopb/decode (= 2.30909.0)
-    - nanopb/encode (= 2.30909.0)
-  - nanopb/decode (2.30909.0)
-  - nanopb/encode (2.30909.0)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
   - PromisesObjC (2.1.1)
 
 DEPENDENCIES:
   - AdFixusMobileFramework (from `https://raw.githubusercontent.com/AdFixus/AdFixusMobileFramework/main/AdFixusMobileFramework.podspec`)
-  - Google-Mobile-Ads-SDK
+  - Google-Mobile-Ads-SDK (= 9.1.0)
 
 SPEC REPOS:
   trunk:
@@ -66,20 +65,15 @@ EXTERNAL SOURCES:
   AdFixusMobileFramework:
     :podspec: https://raw.githubusercontent.com/AdFixus/AdFixusMobileFramework/main/AdFixusMobileFramework.podspec
 
-CHECKOUT OPTIONS:
-  AdFixusMobileFramework:
-    :commit: 01662bdaca4c07fd960518371ce3b60bdfa1d76c
-    :git: https://github.com/AdFixus/AdFixusMobileFrameworkPod.git
-
 SPEC CHECKSUMS:
-  AdFixusMobileFramework: f25c183c06db2f6f28ecd769c5f23b6f53970fa6
-  Google-Mobile-Ads-SDK: bdf13d37aa77e368510687b5305d4972b4f9e9c7
-  GoogleAppMeasurement: 7a33224321f975d58c166657260526775d9c6b1a
+  AdFixusMobileFramework: 9ac7f663168a7dad56de805365550d36c3b6b007
+  Google-Mobile-Ads-SDK: d6ebb0e05cc38f4fad82d77a6655552213ed5e38
+  GoogleAppMeasurement: 4c19f031220c72464d460c9daa1fb5d1acce958e
   GoogleUserMessagingPlatform: ab890ce5f6620f293a21b6bdd82e416a2c73aeca
   GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
-  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
 
-PODFILE CHECKSUM: 5df74b9d52da54ef4e761e1f701fe4ee15294ad4
+PODFILE CHECKSUM: 481554dcd4bfd2dd0b5e38dec6633a2a16f3bb16
 
 COCOAPODS: 1.11.3

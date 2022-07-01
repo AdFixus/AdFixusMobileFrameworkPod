@@ -30,14 +30,14 @@
 @end
 
 /// Ad network class name for ads returned from Google's ad network.
-FOUNDATION_EXPORT NSString *_Nonnull const GADGoogleAdNetworkClassName;
+extern NSString *_Nonnull const GADGoogleAdNetworkClassName;
 
 /// Ad network class name for custom event ads.
-FOUNDATION_EXPORT NSString *_Nonnull const GADCustomEventAdNetworkClassName;
+extern NSString *_Nonnull const GADCustomEventAdNetworkClassName;
 
 /// Key into NSError.userInfo mapping to a GADResponseInfo object. When ads fail to load, errors
 /// returned contain an instance of GADResponseInfo.
-FOUNDATION_EXPORT NSString *_Nonnull GADErrorUserInfoKeyResponseInfo;
+extern NSString *_Nonnull GADErrorUserInfoKeyResponseInfo;
 
 /// Information about a response to an ad request.
 @interface GADResponseInfo : NSObject

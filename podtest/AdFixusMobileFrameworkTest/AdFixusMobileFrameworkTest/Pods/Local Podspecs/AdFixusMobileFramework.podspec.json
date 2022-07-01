@@ -1,23 +1,14 @@
 {
   "name": "AdFixusMobileFramework",
-  "version": "1.0.0",
-  "summary": "AdFixus Mobile Framework. Mobile Ads, fully responsive.",
-  "description": "AdFixus Mobile Framework will revolutionize your mobile in-app advertising.",
-  "homepage": "https://adfixus.com",
+  "authors": {
+    "AdFixus Pty Ltd": "sales@adfixus.com"
+  },
+  "cocoapods_version": ">= 1.9.0",
+  "homepage": "https://www.adfixus.com",
   "license": {
-    "type": "MIT",
+    "type": "Proprietary",
     "file": "LICENSE"
   },
-  "authors": {
-    "wayneschwebel": "wayne.schwebel@adfixus.com"
-  },
-  "source": {
-    "http": "https://github.com/AdFixus/AdFixusMobileFramework/raw/main/AdFixusMobileFramework-1.0.0.tar.gz"
-  },
-  "static_framework": true,
-  "vendored_frameworks": [
-    "Frameworks/AdFixusMobileFramework-current/AdFixusMobileFramework.xcframework"
-  ],
   "platforms": {
     "ios": "10.0"
   },
@@ -25,9 +16,18 @@
     "VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7",
     "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64 arm64"
   },
-  "dependencies": {
-    "Google-Mobile-Ads-SDK": [
-
-    ]
-  }
+  "description": "The AdFixus Mobile SDK is is the latest generation in mobile advertising featuring responsive ad formats. It is a wrapper around Google Mobile Ads SDK.",
+  "preserve_paths": [
+    "LICENSE",
+    "README.txt"
+  ],
+  "source": {
+    "http": "https://github.com/AdFixus/AdFixusMobileFramework/raw/main/Release/1.0.0/AdFixusMobileFramework-1.0.0.tar.gz"
+  },
+  "static_framework": true,
+  "summary": "AdFixus Mobile Framework. Monetize your mobile applications with AdFixus fully responsive ads.",
+  "vendored_frameworks": [
+    "Frameworks/AdFixusMobileFramework-Current/AdFixusMobileFramework.xcframework"
+  ],
+  "version": "1.0.0"
 }

@@ -18,7 +18,7 @@
 typedef void (^GADNativeAdCustomClickHandler)(NSString *_Nonnull assetID);
 
 /// Asset key for the GADMediaView asset view.
-FOUNDATION_EXPORT NSString *_Nonnull const GADCustomNativeAdMediaViewKey;
+extern NSString *_Nonnull const GADCustomNativeAdMediaViewKey;
 
 @protocol GADCustomNativeAdDelegate;
 

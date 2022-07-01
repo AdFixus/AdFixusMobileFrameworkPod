@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AdFixusMobileFramework-Swift.h</key>
 		<data>
-		YUCEwmrJHUeOPbnB84WDnxSlQIk=
+		QPCTmzo8aNWDs0fedTs2JcAOJcs=
 		</data>
 		<key>Headers/AdFixusMobileFramework.h</key>
 		<data>
@@ -14,55 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		obNyF1z6AcQuta4NuKHpaNKwFY4=
+		1AFwWjC7cGHx9LAR/gL9tz61VMs=
 		</data>
 		<key>Modules/AdFixusMobileFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		lZUiaSED3ytELQ2SMIUvNvi3VNE=
+		Rvd6XZ1d9gkHZxOe0bJgmXa2nf8=
 		</data>
 		<key>Modules/AdFixusMobileFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		an6zx/9JtVrfylcMdYTWIsrTcIU=
+		+jk36BH9a5UUVDjWuablvUYR0dg=
 		</data>
 		<key>Modules/AdFixusMobileFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		p/KoNbCyNOR7CvT6VintcqHS4QI=
-		</data>
-		<key>Modules/AdFixusMobileFramework.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		lZUiaSED3ytELQ2SMIUvNvi3VNE=
-		</data>
-		<key>Modules/AdFixusMobileFramework.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		an6zx/9JtVrfylcMdYTWIsrTcIU=
-		</data>
-		<key>Modules/AdFixusMobileFramework.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		p/KoNbCyNOR7CvT6VintcqHS4QI=
+		ArbbLO5DKPVheRdsZb2Feyy9v5g=
 		</data>
 		<key>Modules/AdFixusMobileFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		8OvVjN0ri8sf2wwzOprUv9iY0Os=
+		z5+sQWwmrtDTY+E1/nY9J929Dsw=
 		</data>
 		<key>Modules/AdFixusMobileFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		yTvsSbxY+j0v41AKnJsA9x7FooI=
+		hKF+u7x/A+mKyRF9GVoW2cn62BQ=
 		</data>
 		<key>Modules/AdFixusMobileFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HkE7RJ+Y1bFZw6WIqHcxtPhcPP0=
-		</data>
-		<key>Modules/AdFixusMobileFramework.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		8OvVjN0ri8sf2wwzOprUv9iY0Os=
-		</data>
-		<key>Modules/AdFixusMobileFramework.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		yTvsSbxY+j0v41AKnJsA9x7FooI=
-		</data>
-		<key>Modules/AdFixusMobileFramework.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		HkE7RJ+Y1bFZw6WIqHcxtPhcPP0=
+		GDwAWJzGcO0SAD0fLu3KP1t/EC0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c20Bmp1G88447P/mxctuBIPX0jlr+/7M3YIGOdpMrMY=
+			AB5idXRxMCEtU0JjaBdSNwXP98/ehVLc/uT9zwxAAw8=
 			</data>
 		</dict>
 		<key>Headers/AdFixusMobileFramework.h</key>
@@ -89,84 +65,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u53/KO95tA2ebykWTUxobxNBHmjB+8LIPnhFiAA+lUE=
+			3fnGz0hNprOYDv/PakC1s/26rNJExh1hyMYHSgKYqsw=
 			</data>
 		</dict>
 		<key>Modules/AdFixusMobileFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6F0qC3N0zwkE8D2DTfzWt+IKXk6Gy8g+Xc+/tT3606s=
+			qNF9W6ClANDuMjfVHUPDz+deEdtXlJ5VpX08Gzb5f8Q=
 			</data>
 		</dict>
 		<key>Modules/AdFixusMobileFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T4jx/eEGoVDBzYyQLddgFnimG6dIQ3UxFa5EYNxlZHA=
-			</data>
-		</dict>
-		<key>Modules/AdFixusMobileFramework.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			u53/KO95tA2ebykWTUxobxNBHmjB+8LIPnhFiAA+lUE=
-			</data>
-		</dict>
-		<key>Modules/AdFixusMobileFramework.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6F0qC3N0zwkE8D2DTfzWt+IKXk6Gy8g+Xc+/tT3606s=
-			</data>
-		</dict>
-		<key>Modules/AdFixusMobileFramework.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			T4jx/eEGoVDBzYyQLddgFnimG6dIQ3UxFa5EYNxlZHA=
+			MQI4gH6vsbRLGfmZqqieh5RLXHrp0ZWt3soc46nPF/k=
 			</data>
 		</dict>
 		<key>Modules/AdFixusMobileFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v0iOQwzxXeJifk5hWaLP62tRaBfugwdSQU8YqYP1lDk=
+			L9FC6ZZCMwqxWU5qmnDXkHSgzlKjENWTZi8RofaSxTA=
 			</data>
 		</dict>
 		<key>Modules/AdFixusMobileFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			th+1tQ5UsaNPg2QV/WGYxtR84QCrUzwIaG1dP9DpW7I=
+			lxfONXwfj4Ip4fE4cCDrvBjbKjFxgzbutnYcR/Wa6dM=
 			</data>
 		</dict>
 		<key>Modules/AdFixusMobileFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LEqlwfV8Xf9n7MsNQk1VXY5eswt6iVlLeZOPaswiM2E=
-			</data>
-		</dict>
-		<key>Modules/AdFixusMobileFramework.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			v0iOQwzxXeJifk5hWaLP62tRaBfugwdSQU8YqYP1lDk=
-			</data>
-		</dict>
-		<key>Modules/AdFixusMobileFramework.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			th+1tQ5UsaNPg2QV/WGYxtR84QCrUzwIaG1dP9DpW7I=
-			</data>
-		</dict>
-		<key>Modules/AdFixusMobileFramework.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LEqlwfV8Xf9n7MsNQk1VXY5eswt6iVlLeZOPaswiM2E=
+			TAjn8JRlQZ5YRn3IxkzYqoNoZSWLNi0MZlN3QE8bxXs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

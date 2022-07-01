@@ -18,7 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Initialize Google Mobile Ads SDK
         GADMobileAds.sharedInstance().start(completionHandler: nil)
-        //GADMobileAds.sharedInstance().start()
+
+        //print("initializationStatus: \(String(describing: GADMobileAds.sharedInstance().initializationStatus)) \")")
         return true
     }
 
