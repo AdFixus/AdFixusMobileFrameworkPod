@@ -4,6 +4,11 @@
     "AdFixus Pty Ltd": "sales@adfixus.com"
   },
   "cocoapods_version": ">= 1.9.0",
+  "dependencies": {
+    "Google-Mobile-Ads-SDK": [
+      ">=9.1.0"
+    ]
+  },
   "homepage": "https://www.adfixus.com",
   "license": {
     "type": "Proprietary",
