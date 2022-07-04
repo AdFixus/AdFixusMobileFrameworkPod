@@ -13,8 +13,8 @@ import AdFixusMobileFramework
 
 // https://stackoverflow.com/questions/46932341/class-is-implemented-in-both-one-of-the-two-will-be-used-which-one-is-undefine
 
-// READ THE ABOVE ARTICLE AND REMEMBER TO REMOVE -framework GoogleMobileAds from Pods folder
-// Under the project and called Pods-AdFixusMob...debug and release
+// READ THE ABOVE ARTICLE AND REMEMBER THAT -framework GoogleMobileAds was added twice
+// This issue has been resolved by automating .debug and .release Pods- from podfile (see code)
 
 class ResponsiveAdController: UIViewController, GADBannerViewDelegate, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, UIGestureRecognizerDelegate  {
        
