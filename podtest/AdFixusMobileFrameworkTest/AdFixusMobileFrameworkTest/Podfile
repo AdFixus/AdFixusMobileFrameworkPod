@@ -18,3 +18,18 @@ post_install do |installer|
         end
       end
 end
+
+=begin
+
+post_install do |installer|
+  installer.aggregate_targets.each do |target|
+    target.xcconfigs.each do |config_name, config_file|
+         xcconfig_path = target.xcconfig_path(config_name)
+         xcconfig = File.read(xcconfig_path)
+         new_xcconfig = xcconfig.sub('-framework "GoogleMobileAds"', '')
+         File.open(xcconfig_path, "w") { |file| file << new_xcconfig }
+      end
+  end
+end
+
+=end
