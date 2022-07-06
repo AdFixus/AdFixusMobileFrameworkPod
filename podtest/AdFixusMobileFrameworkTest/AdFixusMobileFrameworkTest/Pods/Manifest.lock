@@ -50,7 +50,7 @@ PODS:
   - PromisesObjC (2.1.1)
 
 DEPENDENCIES:
-  - AdFixusMobileFramework (from `https://raw.githubusercontent.com/AdFixus/AdFixusMobileFramework/main/AdFixusMobileFramework.podspec`)
+  - AdFixusMobileFramework (from `https://raw.githubusercontent.com/AdFixus/AdFixusMobileFramework/main/Staging/1.0.0/AdFixusMobileFramework-Staging-1.0.0.podspec`)
   - Google-Mobile-Ads-SDK (= 9.1.0)
 
 SPEC REPOS:
@@ -64,7 +64,7 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   AdFixusMobileFramework:
-    :podspec: https://raw.githubusercontent.com/AdFixus/AdFixusMobileFramework/main/AdFixusMobileFramework.podspec
+    :podspec: https://raw.githubusercontent.com/AdFixus/AdFixusMobileFramework/main/Staging/1.0.0/AdFixusMobileFramework-Staging-1.0.0.podspec
 
 SPEC CHECKSUMS:
   AdFixusMobileFramework: cb54059f8c55cb99c436af3f9735ccc901b4051b
@@ -75,6 +75,6 @@ SPEC CHECKSUMS:
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
 
-PODFILE CHECKSUM: 830e890e78af330f4ef759837baafa7540dcd514
+PODFILE CHECKSUM: 513d951f4e6f1caf9291da09b40b92f643b6cce7
 
 COCOAPODS: 1.11.3
