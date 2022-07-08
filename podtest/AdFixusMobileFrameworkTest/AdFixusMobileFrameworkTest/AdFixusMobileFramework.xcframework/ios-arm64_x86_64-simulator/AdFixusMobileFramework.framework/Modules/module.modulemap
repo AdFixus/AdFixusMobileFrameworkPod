@@ -1,0 +1,11 @@
+framework module AdFixusMobileFramework {
+  umbrella header "AdFixusMobileFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module AdFixusMobileFramework.Swift {
+    header "AdFixusMobileFramework-Swift.h"
+    requires objc
+}

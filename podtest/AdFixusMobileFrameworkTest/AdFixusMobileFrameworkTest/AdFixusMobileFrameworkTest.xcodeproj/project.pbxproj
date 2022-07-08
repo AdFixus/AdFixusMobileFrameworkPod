@@ -16,6 +16,7 @@
 		A91774CA284472E400ECA38B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A91774C8284472BD00ECA38B /* Main.storyboard */; };
 		A9AE99F6286EB360004287DF /* Pods_AdFixusMobileFrameworkTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9AE99F5286EB360004287DF /* Pods_AdFixusMobileFrameworkTest.framework */; };
 		A9AE99F7286EB36D004287DF /* Pods_AdFixusMobileFrameworkTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A9AE99F5286EB360004287DF /* Pods_AdFixusMobileFrameworkTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A9BEAE2A2877AB2D002197DE /* AdFixusMobileFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BEAE292877AB2C002197DE /* AdFixusMobileFramework.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		A91774C7284472B900ECA38B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A91774C8284472BD00ECA38B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9AE99F5286EB360004287DF /* Pods_AdFixusMobileFrameworkTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_AdFixusMobileFrameworkTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9BEAE292877AB2C002197DE /* AdFixusMobileFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AdFixusMobileFramework.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9AE99F6286EB360004287DF /* Pods_AdFixusMobileFrameworkTest.framework in Frameworks */,
+				A9BEAE2A2877AB2D002197DE /* AdFixusMobileFramework.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +107,7 @@
 		D5AB8E847A2ECE2F0236EDB0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A9BEAE292877AB2C002197DE /* AdFixusMobileFramework.xcframework */,
 				A9AE99F5286EB360004287DF /* Pods_AdFixusMobileFrameworkTest.framework */,
 			);
 			name = Frameworks;
