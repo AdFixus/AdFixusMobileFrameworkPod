@@ -67,7 +67,7 @@ EXTERNAL SOURCES:
     :podspec: https://raw.githubusercontent.com/AdFixus/AdFixusMobileFramework/main/Staging/1.0.0/AdFixusMobileFramework-Staging-1.0.0.podspec
 
 SPEC CHECKSUMS:
-  AdFixusMobileFramework: cb54059f8c55cb99c436af3f9735ccc901b4051b
+  AdFixusMobileFramework: d1e55ef7951be25ea61b622fdcc8ec8f542682f4
   Google-Mobile-Ads-SDK: d6ebb0e05cc38f4fad82d77a6655552213ed5e38
   GoogleAppMeasurement: 4c19f031220c72464d460c9daa1fb5d1acce958e
   GoogleUserMessagingPlatform: ab890ce5f6620f293a21b6bdd82e416a2c73aeca

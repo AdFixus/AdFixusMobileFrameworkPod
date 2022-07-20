@@ -95,11 +95,11 @@ class ResponsiveAdController: UIViewController, GADBannerViewDelegate, UICollect
             
             switch (adSlotId)  {
               case 1:
-                targeting["kw"] = "mobilefirst"
+                targeting["cct"] = "contentcard"
               case 2:
-                targeting["kw"] = "mobilefirst-card"
+                targeting["cct"] = "gc"
             case 3:
-                targeting["kw"] = "mobilefirst-carousel"
+                targeting["cct"] = "carsalescard"
               default:
                 targeting["kw"] = "mobilefirst-mrec"
             }

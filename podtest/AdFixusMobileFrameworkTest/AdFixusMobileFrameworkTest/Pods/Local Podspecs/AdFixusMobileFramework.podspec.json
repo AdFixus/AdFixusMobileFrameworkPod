@@ -27,7 +27,7 @@
     "README.txt"
   ],
   "source": {
-    "http": "https://github.com/AdFixus/AdFixusMobileFramework/raw/main/Release/1.0.0/AdFixusMobileFramework-1.0.0.tar.gz"
+    "http": "https://github.com/AdFixus/AdFixusMobileFramework/raw/main/Staging/1.0.0/AdFixusMobileFramework-1.0.0.tar.gz"
   },
   "static_framework": true,
   "summary": "AdFixus Mobile Framework. Monetize your mobile applications with AdFixus fully responsive ads.",
