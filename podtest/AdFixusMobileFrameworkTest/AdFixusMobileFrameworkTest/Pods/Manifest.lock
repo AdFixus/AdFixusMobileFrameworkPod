@@ -50,7 +50,7 @@ PODS:
   - PromisesObjC (2.1.1)
 
 DEPENDENCIES:
-  - AdFixusMobileFramework (from `https://raw.githubusercontent.com/AdFixus/AdFixusMobileFramework/main/Staging/1.0.0/AdFixusMobileFramework-Staging-1.0.0.podspec`)
+  - AdFixusMobileFramework (from `https://raw.githubusercontent.com/AdFixus/AdFixusMobileFramework/main/Release/1.0.0/AdFixusMobileFramework-Release-1.0.0.podspec`)
   - Google-Mobile-Ads-SDK (= 9.1.0)
 
 SPEC REPOS:
@@ -64,10 +64,10 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   AdFixusMobileFramework:
-    :podspec: https://raw.githubusercontent.com/AdFixus/AdFixusMobileFramework/main/Staging/1.0.0/AdFixusMobileFramework-Staging-1.0.0.podspec
+    :podspec: https://raw.githubusercontent.com/AdFixus/AdFixusMobileFramework/main/Release/1.0.0/AdFixusMobileFramework-Release-1.0.0.podspec
 
 SPEC CHECKSUMS:
-  AdFixusMobileFramework: d1e55ef7951be25ea61b622fdcc8ec8f542682f4
+  AdFixusMobileFramework: cb54059f8c55cb99c436af3f9735ccc901b4051b
   Google-Mobile-Ads-SDK: d6ebb0e05cc38f4fad82d77a6655552213ed5e38
   GoogleAppMeasurement: 4c19f031220c72464d460c9daa1fb5d1acce958e
   GoogleUserMessagingPlatform: ab890ce5f6620f293a21b6bdd82e416a2c73aeca
@@ -75,6 +75,6 @@ SPEC CHECKSUMS:
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
 
-PODFILE CHECKSUM: 513d951f4e6f1caf9291da09b40b92f643b6cce7
+PODFILE CHECKSUM: eb33b5bf4151d9ac66b8cb8346ece3716f86562f
 
 COCOAPODS: 1.11.3

@@ -9,13 +9,6 @@ import GoogleMobileAds
 import UIKit
 import AdFixusMobileFramework
 
-//https://guides.codepath.com/ios/Using-UICollectionView
-
-// https://stackoverflow.com/questions/46932341/class-is-implemented-in-both-one-of-the-two-will-be-used-which-one-is-undefine
-
-// READ THE ABOVE ARTICLE AND REMEMBER THAT -framework GoogleMobileAds was added twice
-// This issue has been resolved by automating .debug and .release Pods- from podfile (see code)
-
 class ResponsiveAdController: UIViewController, GADBannerViewDelegate, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, UIGestureRecognizerDelegate  {
        
     @IBOutlet weak var collectionView: UICollectionView!
@@ -43,8 +36,6 @@ class ResponsiveAdController: UIViewController, GADBannerViewDelegate, UICollect
                 cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ListingCell", for: indexPath)
                 cell.backgroundColor = UIColor.white
                 
-                
-                
                 for subview in cell.subviews {
                     subview.removeFromSuperview()
                 }
@@ -66,7 +57,7 @@ class ResponsiveAdController: UIViewController, GADBannerViewDelegate, UICollect
                 bannerView.delegate = self
                 
                 var targeting = Dictionary<String, String>()
-                targeting["kw"] = "mobilefirst-mrec"
+                targeting["cct"] = "mrec"
                 
                 let request = GAMRequest()
                 request.customTargeting = targeting
@@ -75,8 +66,6 @@ class ResponsiveAdController: UIViewController, GADBannerViewDelegate, UICollect
                 cell.addSubview(bannerView)
                 bannerView.centerXAnchor.constraint(equalTo: cell.centerXAnchor).isActive = true
                 bannerView.centerYAnchor.constraint(equalTo: cell.centerYAnchor).isActive = true
-                 
-                
             }
             else {
                 cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ListingCell", for: indexPath)
@@ -85,8 +74,7 @@ class ResponsiveAdController: UIViewController, GADBannerViewDelegate, UICollect
         } else {
             cell = collectionView.dequeueReusableCell(withReuseIdentifier: "AdCell", for: indexPath)
             cell.backgroundColor = UIColor.white
-            
-            
+
             for subview in cell.subviews {
                 subview.removeFromSuperview()
             }
@@ -101,12 +89,11 @@ class ResponsiveAdController: UIViewController, GADBannerViewDelegate, UICollect
             case 3:
                 targeting["cct"] = "carsalescard"
               default:
-                targeting["kw"] = "mobilefirst-mrec"
+                targeting["cct"] = "mrec"
             }
             
             adSlotId += 1
             _ = loadAdWithParameters(adView: cell, targeting: &targeting)
-             
         }
 
         return cell
@@ -137,18 +124,6 @@ class ResponsiveAdController: UIViewController, GADBannerViewDelegate, UICollect
         
         collectionView.collectionViewLayout = layout
         collectionView.dragInteractionEnabled = false
-
-        /*
-        for recognizer in collectionView.gestureRecognizers ?? []
-        {
-            recognizer.isEnabled = false
-            if (recognizer is UILongPressGestureRecognizer)
-            {
-                recognizer.isEnabled = false
-            }
-            print("recognizer: \(String(describing: recognizer)) \")")
-        }
-         */
     }
     
     func loadAdWithParameters(adView: UIView, targeting: inout Dictionary<String, String>) -> OperationResponse
@@ -185,7 +160,7 @@ class ResponsiveAdController: UIViewController, GADBannerViewDelegate, UICollect
         adSizes.append(NSValueFromGADAdSize(mrec))
         
         var customTargeting = Dictionary<String, String>()
-        customTargeting["kw"] = "mobilefirst"
+        customTargeting["cct"] = "mrec"
         
         let request = GAMRequest()
         request.customTargeting = customTargeting

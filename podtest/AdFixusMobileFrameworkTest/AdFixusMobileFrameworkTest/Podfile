@@ -5,7 +5,7 @@ inhibit_all_warnings!
 target 'AdFixusMobileFrameworkTest' do
   use_frameworks!
   pod 'Google-Mobile-Ads-SDK', '9.1.0' # Require for Google Ads
-  pod 'AdFixusMobileFramework', :podspec => "https://raw.githubusercontent.com/AdFixus/AdFixusMobileFramework/main/Staging/1.0.0/AdFixusMobileFramework-Staging-1.0.0.podspec"
+  pod 'AdFixusMobileFramework', :podspec => "https://raw.githubusercontent.com/AdFixus/AdFixusMobileFramework/main/Release/1.0.0/AdFixusMobileFramework-Release-1.0.0.podspec"
 end
 
 post_install do |installer|

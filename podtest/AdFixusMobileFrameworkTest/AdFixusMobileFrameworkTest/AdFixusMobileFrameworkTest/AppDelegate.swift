@@ -7,6 +7,7 @@
 
 import UIKit
 import GoogleMobileAds
+import AdFixusMobileFramework
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // Initialize Google Mobile Ads SDK
+        //let manager = ResponsiveAdManager()
+        //manager.initializeGADMobileAds(handler: nil)
+        
         GADMobileAds.sharedInstance().start(completionHandler: nil)
 
         //print("initializationStatus: \(String(describing: GADMobileAds.sharedInstance().initializationStatus)) \")")
