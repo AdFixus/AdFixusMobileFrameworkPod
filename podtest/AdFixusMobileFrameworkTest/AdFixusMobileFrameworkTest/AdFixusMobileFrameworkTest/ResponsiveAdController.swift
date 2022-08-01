@@ -101,7 +101,7 @@ class ResponsiveAdController: UIViewController, GADBannerViewDelegate, UICollect
             case 3:
                 targeting["cct"] = "carsalescard"
               default:
-                targeting["kw"] = "mobilefirst-mrec"
+                targeting["cct"] = "mrec"
             }
             
             adSlotId += 1
